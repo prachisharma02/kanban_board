@@ -1,5 +1,4 @@
 import { MongoClient, Db } from "mongodb";
-import { connectToMongoDB, closeMongoDBConnection } from "./mongo";
 
 // MongoDB connection URL. Replace with your actual MongoDB URL.
 const mongoURL = "mongodb://127.0.0.1:27017/kanban";
